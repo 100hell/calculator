@@ -1,0 +1,79 @@
+#calculator{
+    min-height: 50vh;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    background-color: rgb(212, 216, 216);
+    padding: 8px;
+
+}
+
+body::-webkit-scrollbar{
+    display:none;
+}
+
+#calculator::-webkit-scrollbar{
+    display:none;
+}
+#result-screen{
+    color: blue;
+    min-height: 15vh;
+    margin-top: 20px;
+    background-color: rgb(202, 200, 200);
+}
+
+#history{
+    color: black;
+    height: 30px;
+    font-size: 1.3rem;
+    text-align: right;
+}
+#result{
+    color: black;
+    height: 40px;
+    font-size: 2rem;
+    text-align: right;
+}
+
+h1{
+    color: rgba(189, 197, 202, 0.993);
+    background-color: rgb(0, 0, 0);
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#buttons-container{
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+button{
+    width: 25%;
+    height: 12vh;
+    min-height: 40px;
+    outline: 1px solid rgb(202, 200, 200);
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+}
+
+#zero-btn {
+    width: 50%;
+}
+
+.bg-color{
+    background-color: rgb(40, 38, 156);
+    color: rgb(218, 221, 230);
+}
